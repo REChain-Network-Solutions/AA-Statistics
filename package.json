@@ -1,0 +1,21 @@
+{
+  "name": "aa_stats",
+  "version": "1.0.0",
+  "description": "AA Statistics API",
+  "main": "aa_stats.js",
+  "scripts": {
+    "start": "node aa_stats.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kakysha",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "cron": "^1.8.2",
+    "headless-rechain": "git+https://uri",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0"
+  }
+}

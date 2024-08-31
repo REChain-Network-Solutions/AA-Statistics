@@ -1,0 +1,1 @@
+*/20 * * * * cd aa_stats; node check_daemon.js 1>>~/.config/aa_stats/check_daemon.log 2>>~/.config/aa_stats/check_daemon.err
